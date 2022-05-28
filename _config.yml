@@ -5,7 +5,7 @@ baseurl:
 url: https://jingzhang-cs.github.io
 date_format: "ordinal"
 title: Jing
-subtitle: "Jing's Homepage"
+subtitle: "Jing's Blog"
 #description: "马壮的个人博客，公众号：闷骚的程序员"
 #keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
 timezone: Asia/Shanghai
@@ -27,12 +27,12 @@ components:
         hide-platforms: qq,facebook
     # 不蒜子访问统计
     busuanzi:
-        enabled: false
-        start_date: 2020-05-03
-    # My Popular Repositories
-    side_bar_repo:
         enabled: true
-        limit: 5
+        start_date: 2022-05-28
+    # My Popular Repositories
+    # side_bar_repo:
+    #     enabled: true
+    #     limit: 5
     # 文章字数统计
     word_count:
         enabled: true
@@ -42,8 +42,8 @@ components:
     #     enabled: true
     #     image_alt: 闷骚的程序员
     # 维基索引页使用哪种视图，支持 列表（list）/分类（cate）
-    wiki:
-        view: cate
+    # wiki:
+    #     view: cate
 # 压缩页面内容
 compress_html:
   clippings: all
